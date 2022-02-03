@@ -160,7 +160,7 @@ export const postComment = (campsiteId, rating, author, text) => dispatch => {
         campsiteId,
         rating, 
         author,
-        text,
+        text
     };
     newComment.date = new Date().toISOString();
 
